@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color : #24252A;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.nav_links h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #edf0f1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    position: relative;
+    top: 0;
+    color: #adadad 
+}
+.nav_bar{
+    z-index: 3;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav_links li a :hover{
+    color: #0088a9;
+}
+
+.background {
+    background-image :url(./img/3M.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+
+.site_titles {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.site_title h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    background-color: transparent;
+}
+
+.site_title p {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -55%);
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 6px;
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #00000060;
+}
