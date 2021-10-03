@@ -62,46 +62,21 @@ header {
 .nav_links li a :hover{
     color: #0088a9;
 }
-
-
-.site_title {
-    position: relative;
-    top: 50px;
-    left: 15%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    z-index: 2;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.site_title h1 {
-    position: absolute;
-    top: 30%;
-    left: 10%;
-    transform: translate(-50%, -50%);
-    font-size: 60px;
-    color: #ffffff;
-    text-align: center;
-    margin: 0;
-    background-color: transparent;
-}
-
-.site_title p {
-    position: absolute;
-    top: 30%;
-    left: 60%;
-    font-size: 20px;
-    transform: translate(-50%, -55%);
-    color: #ffffff;
-    text-align: center;
-    margin: 0;
-    letter-spacing: 6px;
-    margin-top: 10px;
-    background-color: transparent;
+.photo{
+    width: 100%;
 }
 
 .photo img {
     width: 100%;
 }
 
+.text{
+    position: relative;
+    width: 100%;
+    margin-top: -40%;
+}
+
+.text h1 {
+    text-align: center;
+    color: #333138;
+}
