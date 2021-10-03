@@ -4,11 +4,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color : #24252A;
 }
+
 body {
     margin: 0;
     padding: 0;
+    background-color: #adadad;
 }
 .nav_links h1 {
     font-family: 'Montserrat', sans-serif;
@@ -27,9 +28,16 @@ header {
     position: relative;
     top: 0;
     color: #adadad 
+    
 }
-.nav_bar{
-    z-index: 3;
+.nav{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    border: 0px;
+    background-color: #515052;
+    z-index: 9999;
 }
 
 .nav_links {
@@ -55,19 +63,10 @@ header {
     color: #0088a9;
 }
 
-.background {
-    background-image :url(./img/3M.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-size: cover;
-    position: relative;
-    width: 100%;
-    height: 800px;
-}
 
-.site_titles {
-    position: absolute;
-    top: 50%;
+.site_title {
+    position: relative;
+    top: 50px;
     left: 15%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -79,7 +78,7 @@ header {
 .site_title h1 {
     position: absolute;
     top: 30%;
-    left: 50%;
+    left: 10%;
     transform: translate(-50%, -50%);
     font-size: 60px;
     color: #ffffff;
@@ -90,8 +89,8 @@ header {
 
 .site_title p {
     position: absolute;
-    top: 35%;
-    left: 50%;
+    top: 30%;
+    left: 60%;
     font-size: 20px;
     transform: translate(-50%, -55%);
     color: #ffffff;
@@ -102,12 +101,7 @@ header {
     background-color: transparent;
 }
 
-.overlay {
+.photo img {
     width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    background: #00000060;
 }
+
