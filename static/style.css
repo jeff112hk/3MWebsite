@@ -59,7 +59,7 @@ header {
     cursor: pointer;
 }
 
-.nav_links li a :hover{
+.nav_links li a:hover{
     color: #0088a9;
 }
 .photo{
@@ -78,5 +78,5 @@ header {
 
 .text h1 {
     text-align: center;
-    color: #333138;
+    color: #fff;
 }
