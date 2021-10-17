@@ -2,12 +2,32 @@
 {% block title%}
 Home
 {% endblock title%}
-
 {% block content %}
+<div class="toptext">
+    <h1>Welcome to 3M website!</h1>
+    <h2>歡迎來到三德的網站!</h2>
+</div>
+<div class="button">
+    <a href="#about">瞭解更多 - Learn more</a>
+</div>
 <div class="photo">
-    <img src="/static/img/3M.jpg" alt="Photo"></img>
-    <div class="text">
-        <h1>Welcome to 3M website!</h1>
+    <img src="/static/img/skss.png"></img>
+</div>
+<div class="box"></div>
+<div class="description">
+    <div id="about">
+        <h1>關於 三德</h1>
+        <p>
+            班訓：終日乾乾，惠以德行
+            <br>班主任：陳惠嫻老師，李詠乾老師</br>
+        </p>
     </div>
+</div>
+<div class="classphoto">
+    <h1>班級照片</h1>
+    <img src="/static/img/3M.jpg"></img>
+    <br>
+        <a href="./photos">更多照片 - More Photos</a>
+</br>
 </div>
 {% endblock content %}

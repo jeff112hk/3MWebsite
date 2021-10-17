@@ -10,10 +10,6 @@ def home():
 def photo():
     return render_template('photo.html')
 
-@app.route('/about')
-def about(): 
-    return render_template('about.html')
-
 @app.route('/favicon.ico')
 def favicon():
     return current_app.send_static_file('favicon.ico')
